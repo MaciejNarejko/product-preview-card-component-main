@@ -1,0 +1,120 @@
+@use 'variables' as *;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 1rem;
+	min-height: 100vh;
+	font-size: 10px;
+	font-family: $ff-montserrat;
+	background-color: $c-cream;
+}
+
+.product-card {
+	max-width: 60em;
+	background-color: $c-white;
+	border-radius: 1rem;
+
+	&__img {
+		max-width: 100%;
+		border-radius: 1rem 1rem 0 0;
+		display: block;
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		gap: 1.2rem;
+		padding: 2rem 1.5rem;
+	}
+
+	&__subhead {
+		font-size: 1.2em;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+	}
+
+	&__head {
+		font-size: 2.2rem;
+		font-weight: 700;
+		line-height: 2.2rem;
+	}
+
+	&__description {
+		font-size: 1.4em;
+		line-height: 1.5rem;
+	}
+
+	&__price {
+		display: flex;
+		align-items: center;
+	}
+	&__price-current {
+		font-size: 2rem;
+		font-weight: 700;
+		color: $c-dark-cyan;
+	}
+
+	&__head,
+	&__price-current {
+		font-family: $ff-fraunces;
+	}
+
+	&__price-original {
+		padding-left: 1.3rem;
+		font-size: 0.9rem;
+	}
+
+	&__subhead,
+	&__price-original,
+	&__description {
+		font-weight: 500;
+		color: $c-dark-grayish-blue;
+	}
+
+	&__button {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		gap: 0.75rem;
+		padding: 1rem;
+		font-size: 0.975rem;
+		font-weight: 700;
+		font-family: $ff-montserrat;
+		border: $c-dark-cyan;
+		border-radius: 0.7rem;
+		background-color: $c-dark-cyan;
+		color: $c-white;
+		transition: background-color ease-in-out 0.3s;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $c-darker-cyan;
+		}
+	}
+}
+
+@media (min-width: 640px) {
+	.product-card {
+		display: flex;
+
+		&__picture {
+			width: 50%;
+		}
+		&__img {
+			height: 100%;
+			border-radius: 1rem 0 0 1rem;
+		}
+		&__content {
+			width: 50%;
+		}
+	}
+}

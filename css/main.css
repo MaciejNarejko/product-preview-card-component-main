@@ -1,5 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+  min-height: 100vh;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(30deg, 38%, 92%);
+}
+
+.product-card {
+  max-width: 60em;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 1rem;
+}
+.product-card__img {
+  max-width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  display: block;
+}
+.product-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 2rem 1.5rem;
+}
+.product-card__subhead {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.product-card__head {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+}
+.product-card__description {
+  font-size: 1.4em;
+  line-height: 1.5rem;
+}
+.product-card__price {
+  display: flex;
+  align-items: center;
+}
+.product-card__price-current {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(158deg, 36%, 37%);
+}
+.product-card__head, .product-card__price-current {
+  font-family: "Fraunces", serif;
+}
+.product-card__price-original {
+  padding-left: 1.3rem;
+  font-size: 0.9rem;
+}
+.product-card__subhead, .product-card__price-original, .product-card__description {
+  font-weight: 500;
+  color: hsl(228deg, 12%, 48%);
+}
+.product-card__button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  font-size: 0.975rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  border: hsl(158deg, 36%, 37%);
+  border-radius: 0.7rem;
+  background-color: hsl(158deg, 36%, 37%);
+  color: hsl(0deg, 0%, 100%);
+  transition: background-color ease-in-out 0.3s;
+  cursor: pointer;
+}
+.product-card__button:hover {
+  background-color: hsl(158deg, 36%, 20%);
+}
+
+@media (min-width: 640px) {
+  .product-card {
+    display: flex;
+  }
+  .product-card__picture {
+    width: 50%;
+  }
+  .product-card__img {
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+  }
+  .product-card__content {
+    width: 50%;
+  }
+}/*# sourceMappingURL=main.css.map */
