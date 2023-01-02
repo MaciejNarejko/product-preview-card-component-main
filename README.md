@@ -3,7 +3,7 @@
 
 <div align="center">
   <h3>
-    <a href="#">
+    <a href="https://maciejnarejko.github.io/product-preview-card-component-main/">
       Live
     </a>
     | 
@@ -11,13 +11,10 @@
       Solution
     </a>
     | 
-    <a href="#">
-      Report an issue
+    <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa">
+      Challenge
     </a>
   </h3>
-</div>
-<div align="center">
-   Solution for a challenge from  <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" target="_blank">frontendmentor.io</a>.
 </div>
 
 <img src="./img/desktop-design.jpg"></img>
@@ -25,6 +22,8 @@
 ## About the Project
 
 The challenge is to build out this product preview card component and get it looking as close to the design as possible. For this purpose you can use any tools you like to help you complete the challenge.
+
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Built with
 
@@ -37,7 +36,7 @@ The challenge is to build out this product preview card component and get it loo
 
 ## Author
 
-- Frontend Mentor - <a href="#">@maciejnarejko</a>
+- Frontend Mentor - <a href="https://www.frontendmentor.io/profile/MaciejNarejko">@maciejnarejko</a>
 
 ## Acknowledgments
 
