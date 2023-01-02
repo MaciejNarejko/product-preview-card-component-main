@@ -87,6 +87,10 @@ body {
   background-color: hsl(158deg, 36%, 20%);
 }
 
+.footer {
+  display: none;
+}
+
 @media (min-width: 640px) {
   .product-card {
     display: flex;
@@ -95,7 +99,6 @@ body {
     width: 50%;
   }
   .product-card__img {
-    height: 100%;
     border-radius: 1rem 0 0 1rem;
   }
   .product-card__content {
