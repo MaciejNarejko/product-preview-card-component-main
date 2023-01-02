@@ -7,7 +7,7 @@
       Live
     </a>
     | 
-    <a href="#">
+    <a href="https://www.frontendmentor.io/solutions/product-preview-card-component-E1W3nZ8Jff">
       Solution
     </a>
     | 
@@ -36,7 +36,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Author
 
-- Frontend Mentor - <a href="https://www.frontendmentor.io/profile/MaciejNarejko">@maciejnarejko</a>
+- Frontend Mentor - <a href="https://www.frontendmentor.io/profile/MaciejNarejko">@MaciejNarejko</a>
 
 ## Acknowledgments
 
